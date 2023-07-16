@@ -38,7 +38,7 @@ class MealsScreen extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           Text(
-            'Try selecting a different category',
+            title != null ? 'Try selecting a different category' : '',
             style: Theme.of(context)
                 .textTheme
                 .bodyLarge!
